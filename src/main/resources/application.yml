@@ -1,0 +1,14 @@
+server:
+  port: 8092
+
+spring:
+  datasource:
+    username: root
+    password: BINDE5243
+    url: jdbc:mysql://localhost:3306/jwt-security
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      format_sql: true
